@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="container mx-auto text-center p-4 bg-white rounded-lg shadow-lg">
+        <h1 class="text-3xl font-bold mb-4">Weather App</h1>
+        <input type="text" id="city-input" class="border p-2 rounded w-2/3" placeholder="Enter city name">
+        <button id="get-weather-btn" class="bg-blue-500 text-white p-2 rounded ml-2">Get Weather</button>
+        <div id="weather-info" class="mt-4">
+            <!-- Weather info will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
